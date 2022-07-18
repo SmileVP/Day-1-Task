@@ -1,0 +1,46 @@
+
+DAY 1 TASK;
+
+1.Write a blog on difference between HTTP 1.1 vs HTTP 2
+ 
+  Solution:
+   
+   HTTP 1.1 : 1. Internet speed was low when compared to HTTP 2.0
+              2. It is a text protocol which are intended to be read by human
+			  3. It compresses data by itself
+			  4. For every TCP connection, request should be made
+			  5. It uses request resource inilining for getting multiple pages
+			  6. Example: Time taken to load an image in HTTP 1.1 takes 5 sec.
+			  
+   HTTP 2.0 : 1. Internet speed is much faster and reliable than HTTP 1.1
+              2. It is a binary protocol that are intended to be read by a machine than a human being
+			  3. It uses Hpack for data compression
+			  4. It is a multiplex protocol which means parallel requests can be made over the same TCP Connection
+			  5. It uses server Push to populate data in a client cache
+			  6. Example: Time taken to load an image in HTTP 2 takes just 2sec whereas HTTP 1.1 takes 5 sec.
+			  
+			  
+2. Write a blog about object and its internal representation in javascript
+
+  Solution:
+  
+    1. JavaScript is an object oriented programming language which reduces memory consumption and makes the programming effective  
+    2. It has special features like Encapsulation,Polymorphism,Interitance
+	
+	Objects internal representation:
+	
+	1. Generally, an object is accompanied by a class that defines an object's blueprint and consists of collection of properties, methods,etc
+	2. Firstly, we create a class with a class name 
+	3. Next, we create an object by writing the new keyword and assign a reference variable for it to access
+	4. We initialize a javascript object by using constructor 
+	5. this keyword is used inside the constructor to print the freshly created object value
+	6. And, we write the values for the constructor parameter and initialize the objects field
+    7. Finally, the constructor call is made and the values get printed
+
+    Access specifiers: 
+	
+	1. Getters: Getters are used to call a method inside the class and get the objects value
+	2. Setters: Setters are used to modify the value of an object which was already defined
+	
+			  
+   
