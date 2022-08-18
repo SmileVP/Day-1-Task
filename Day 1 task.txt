@@ -26,16 +26,18 @@ DAY 1 TASK;
   
     1. JavaScript is an object oriented programming language which reduces memory consumption and makes the programming effective  
     2. It has special features like Encapsulation,Polymorphism,Interitance
-	
+     
 	Objects internal representation:
 	
+	 An object is a collection of data in the form of key:value pair,so that it will be easy to access the data
+	 
 	1. Generally, an object is accompanied by a class that defines an object's blueprint and consists of collection of properties, methods,etc
 	2. Firstly, we create a class with a class name 
 	3. Next, we create an object by writing the new keyword and assign a reference variable for it to access
 	4. We initialize a javascript object by using constructor 
 	5. this keyword is used inside the constructor to print the freshly created object value
 	6. And, we write the values for the constructor parameter and initialize the objects field
-    7. Finally, the constructor call is made and the values get printed
+        7. Finally, the constructor call is made and the values get printed
 
     Access specifiers: 
 	
